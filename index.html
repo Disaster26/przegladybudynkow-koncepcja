@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow" data-podglad>
+<title>Przeglądy techniczne budynków Łódź | Biuro Inżynierskie Jarosław Drymer</title>
+<meta name="description" content="Przeglądy techniczne budynków w Łodzi: roczne, pięcioletnie i półroczne, pomiary, oceny techniczne, kosztorysy i nadzór. Biuro Inżynierskie Jarosław Drymer.">
+<meta name="theme-color" content="#190773">
+<link rel="icon" href="img/znak.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/archivo-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" href="img/hero-tel-720.webp" imagesrcset="img/hero-tel-720.webp 720w, img/hero-tel-1080.webp 1080w, img/hero-tel-1260.webp 1260w" imagesizes="100vw" media="(max-width: 900px)">
+<link rel="preload" as="image" href="img/hero-1600.webp" imagesrcset="img/hero-960.webp 960w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w, img/hero-3600.webp 3600w" imagesizes="max(100vw, 290vh)" media="(min-width: 901px)">
+<style>
+@font-face{font-family:Archivo;src:url(fonts/archivo-rdzen.woff2) format("woff2");font-weight:400 800;font-stretch:75% 100%;font-display:swap;unicode-range:U+0020-007E,U+00A0-00FF,U+2013-2014,U+2018-201E,U+2022,U+2026,U+20AC}
+@font-face{font-family:Archivo;src:url(fonts/archivo-pl.woff2) format("woff2");font-weight:400 800;font-stretch:75% 100%;font-display:swap;unicode-range:U+0104-0107,U+010C-010D,U+0118-011B,U+0141-0144,U+0158-0161,U+016E-016F,U+0179-017E}
+:root{--gr:#190773;--gr2:#10044f;--grj:#2a1a9c;--ink:#14122b;--mut:#4a4d63;--sz:#eef0f6;--li:#d9dce8;--hh:68px;--w:min(calc(100vw - 32px),1240px)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;font:400 17px/1.6 Archivo,Arial,sans-serif;color:var(--ink);background:#fff;overflow-x:hidden}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+h1,h2,h3{font-stretch:82%;font-weight:700;line-height:1.08;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(30px,4vw,48px)}
+h3{font-size:22px;line-height:1.2}
+p{margin:0}
+.wrap{width:var(--w);margin:0 auto}
+.btn{display:inline-flex;align-items:center;gap:10px;background:var(--gr);color:#fff;text-decoration:none;font-weight:600;font-size:17px;padding:15px 26px;border:0;border-radius:2px;cursor:pointer;transition:background .2s}
+.btn:hover{background:var(--grj)}
+.btn svg{width:16px;height:16px}
+/* naglowek */
+.top{position:sticky;top:0;z-index:30;background:#fff;border-bottom:1px solid var(--li);height:var(--hh)}
+.top .wrap{height:100%;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.logo{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--gr)}
+.logo svg{width:52px;height:34px;flex:none}
+.logo span{display:flex;flex-direction:column;line-height:1.05;font-stretch:78%;font-weight:700;font-size:13px;letter-spacing:.06em;text-transform:uppercase}
+.logo b{font-size:19px;letter-spacing:.03em}
+.nav{display:flex;align-items:center;gap:26px;font-size:15.5px;font-weight:500}
+.nav a{text-decoration:none;padding:6px 0;border-bottom:2px solid transparent}
+.nav a:hover{border-color:var(--gr)}
+.nav a[aria-current]{border-color:var(--gr);color:var(--gr)}
+.tel{display:inline-flex;align-items:center;gap:8px;font-weight:700;color:#fff;background:var(--gr);text-decoration:none;padding:10px 16px;border-radius:2px;font-size:15.5px;white-space:nowrap}
+.tel svg{width:16px;height:16px}
+.burger{display:none;width:44px;height:44px;border:0;background:none;padding:10px;cursor:pointer;color:var(--gr)}
+.burger i{display:block;height:2px;background:currentColor;margin:6px 0;transition:transform .2s,opacity .2s}
+/* hero */
+.hero{position:relative;min-height:calc(100svh - var(--hh));display:flex;align-items:center;color:#fff;background:var(--gr2);isolation:isolate}
+.hero picture,.hero picture img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:62% 40%;z-index:-2}
+.hero:before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(16,4,79,.92) 0%,rgba(16,4,79,.78) 34%,rgba(16,4,79,.25) 62%,rgba(16,4,79,0) 80%)}
+.hero:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:56px;background:#fff;clip-path:polygon(0 100%,0 92%,68% 0,100% 92%,100% 100%)}
+.hero-in{width:var(--w);margin:0 auto;padding:56px 0 110px}
+.hero h1{font-size:clamp(40px,4.6vw,66px);max-width:12.5em;font-stretch:80%}
+.hero h1 span{display:block;font-weight:500;font-stretch:90%;font-size:.5em;line-height:1.25;margin-top:16px;max-width:24em;color:#e4e3f6}
+.hero .lead{font-size:19px;max-width:34em;margin-top:22px;color:#fff}
+.hero .btn{margin-top:32px;background:#fff;color:var(--gr)}
+.hero .btn:hover{background:#e6e5f7}
+.hero .fakt{margin-top:22px;font-size:15px;color:#dcdaf3}
+/* sekcje */
+.sek{padding:96px 0}
+.sz{background:var(--sz)}
+.intro{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:72px;align-items:start}
+.intro p{color:var(--mut);margin-top:20px;max-width:32em}
+.intro p strong{color:var(--ink);font-weight:600}
+.dach{list-style:none;margin:0;padding:0;columns:2;column-gap:40px}
+.dach li{break-inside:avoid;position:relative;padding:13px 0 13px 30px;border-bottom:1px solid var(--li);font-weight:500}
+.dach li:before{content:"";position:absolute;left:2px;top:22px;width:14px;height:8px;background:var(--gr);clip-path:polygon(0 100%,50% 0,100% 100%,82% 100%,50% 35%,18% 100%)}
+.uslugi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:48px}
+.us{background:#fff;display:flex;flex-direction:column}
+.us figure{margin:0;aspect-ratio:4/3;overflow:hidden;background:#cfd2de}
+.us figure img{width:100%;height:100%;object-fit:cover}
+.us div{padding:26px 26px 30px}
+.us p{color:var(--mut);margin-top:10px;font-size:16px}
+.us ul{list-style:none;margin:16px 0 0;padding:0;font-size:15.5px}
+.us li{padding:7px 0 7px 22px;position:relative;border-top:1px solid var(--li)}
+.us li:before{content:"";position:absolute;left:0;top:15px;width:11px;height:6px;background:var(--gr);clip-path:polygon(0 100%,50% 0,100% 100%,82% 100%,50% 35%,18% 100%)}
+.gl{display:flex;justify-content:space-between;align-items:end;gap:24px}
+.gl p{color:var(--mut);margin-top:14px;max-width:36em}
+/* protokol - ciemna sekcja */
+.prot{background:var(--gr);color:#fff;position:relative;overflow:hidden}
+.prot .dach-tlo{position:absolute;right:-6%;bottom:-8%;width:min(62vw,860px);height:auto;color:#2a1a9c;pointer-events:none}
+.prot .wrap{position:relative;display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:72px}
+.prot h2+p{margin-top:20px;color:#d9d7f2;max-width:28em}
+.pkt{list-style:none;margin:0;padding:0;counter-reset:p}
+.pkt li{display:grid;grid-template-columns:44px minmax(0,1fr);gap:8px 14px;padding:20px 0;border-top:1px solid rgba(255,255,255,.22)}
+.pkt li:last-child{border-bottom:1px solid rgba(255,255,255,.22)}
+.pkt svg{width:30px;height:22px;margin-top:4px;color:#fff}
+.pkt b{display:block;font-size:19px;font-weight:600}
+.pkt span{color:#d9d7f2;font-size:16px}
+/* galeria */
+.tasma{display:grid;grid-auto-flow:column;grid-auto-columns:minmax(260px,calc((min(100vw - 32px,1240px) - 3*20px)/3.4));gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;margin-top:40px;padding:0 max(16px,calc((100vw - 1240px)/2)) 12px;scroll-padding-inline:max(16px,calc((100vw - 1240px)/2));scrollbar-width:thin;cursor:grab}
+.tasma.ciag{cursor:grabbing;scroll-snap-type:none}
+.tasma figure{margin:0;scroll-snap-align:start}
+.tasma .fot{aspect-ratio:4/3;overflow:hidden;background:#cfd2de}
+.tasma img{width:100%;height:100%;object-fit:cover;pointer-events:none;-webkit-user-drag:none}
+.tasma figcaption{font-weight:600;margin-top:12px;font-size:16px}
+.strz{display:flex;gap:8px}
+.strz button{width:46px;height:46px;border:1px solid var(--gr);background:#fff;color:var(--gr);cursor:pointer;display:grid;place-items:center;border-radius:2px}
+.strz button:hover{background:var(--gr);color:#fff}
+.strz svg{width:18px;height:18px}
+/* barton */
+.syn{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:32px;align-items:center;border:2px solid var(--gr);padding:40px 44px;position:relative}
+.syn h2{font-size:clamp(26px,3vw,36px)}
+.syn p{color:var(--mut);margin-top:12px;max-width:44em}
+.btn.obr{background:#fff;color:var(--gr);border:2px solid var(--gr)}
+.btn.obr:hover{background:var(--gr);color:#fff}
+/* kontakt */
+.kont{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:72px}
+.dane{margin-top:28px;display:grid;gap:18px;font-size:17px}
+.dane div{border-top:1px solid var(--li);padding-top:16px}
+.dane small{display:block;color:var(--mut);font-size:14px;margin-bottom:2px}
+.dane a{font-weight:600;text-decoration:none}
+.dane a:hover{color:var(--gr)}
+form{background:#fff;padding:36px;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px}
+form label{display:grid;gap:6px;font-size:14.5px;font-weight:600}
+form .pel{grid-column:1/-1}
+input,select,textarea{font:inherit;font-size:16px;padding:13px 14px;border:1px solid #b9bdd0;border-radius:2px;background:#fff;color:var(--ink);width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--gr);outline-offset:0;border-color:var(--gr)}
+textarea{min-height:120px;resize:vertical}
+form .zgoda{font-weight:400;font-size:13.5px;color:var(--mut);display:flex;gap:10px;align-items:flex-start}
+form .zgoda input{width:18px;height:18px;margin-top:2px;flex:none}
+form .btn{justify-self:start}
+.ok{grid-column:1/-1;color:var(--gr);font-weight:600}
+/* stopka */
+.stopka{background:var(--gr2);color:#c9c6ea;font-size:15px;padding:48px 0 28px}
+.stopka .wrap{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:32px}
+.stopka b{color:#fff;display:block;margin-bottom:8px}
+.stopka a{text-decoration:none}
+.stopka a:hover{color:#fff}
+.stopka .dol{grid-column:1/-1;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;border-top:1px solid rgba(255,255,255,.16);padding-top:20px;margin-top:8px;font-size:14px}
+.mob{display:none}
+/* znak Wylinki */
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+@media (max-width:1100px){.nav{gap:18px;font-size:15px}.nav .opt{display:none}}
+@media (max-width:960px){
+ .nav,.top .tel span{display:none}
+ .burger{display:block}
+ .top .tel{padding:10px 12px}
+ .menu-otw .nav{display:flex;position:fixed;top:var(--hh);left:0;right:0;bottom:0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:12px 16px;font-size:20px;font-weight:600;overflow:auto}
+ .menu-otw .nav a{padding:16px 4px;border-bottom:1px solid var(--li)}
+ .menu-otw .nav .opt{display:block}
+ .menu-otw .burger i:nth-child(1){transform:translateY(8px) rotate(45deg)}
+ .menu-otw .burger i:nth-child(2){opacity:0}
+ .menu-otw .burger i:nth-child(3){transform:translateY(-8px) rotate(-45deg)}
+ .intro,.prot .wrap,.kont{grid-template-columns:minmax(0,1fr);gap:40px}
+ .uslugi{grid-template-columns:minmax(0,1fr)}
+ .us{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr)}
+ .us figure{aspect-ratio:auto;position:relative;min-height:240px}
+ .us figure img{position:absolute;inset:0}
+}
+@media (max-width:900px){
+ .hero{flex-direction:column;align-items:stretch;background:#fff;color:var(--ink)}
+ .hero:before,.hero:after{display:none}
+ .hero picture{position:relative;inset:auto;display:block;flex:1 1 0;min-height:min(58vw,30svh);max-height:62svh;z-index:0;overflow:hidden}
+ .hero picture:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:28px;background:#fff;clip-path:polygon(0 100%,0 80%,68% 0,100% 80%,100% 100%)}
+ .hero picture img{position:absolute;object-position:50% 50%}
+ .hero-in{flex:0 0 auto;padding:18px 0 26px}
+ .hero h1{color:var(--gr)}
+ .hero h1 span{color:var(--mut)}
+ .hero .lead{color:var(--mut)}
+ .hero .btn{background:var(--gr);color:#fff}
+ .hero .fakt{color:var(--mut)}
+}
+@media (max-width:760px){
+ :root{--hh:60px}
+ body{font-size:16.5px}
+ .logo svg{width:44px;height:29px}
+ .logo span{font-size:11px}
+ .logo b{font-size:16px}
+ .hero{flex-direction:column;align-items:stretch;background:#fff;color:var(--ink)}
+ .hero:before,.hero:after{display:none}
+ .hero picture{position:relative;inset:auto;display:block;flex:1 1 0;min-height:min(58vw,30svh);max-height:62svh;z-index:0;overflow:hidden}
+ .hero picture:after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:28px;background:#fff;clip-path:polygon(0 100%,0 80%,68% 0,100% 80%,100% 100%)}
+ .hero picture img{position:absolute;object-position:50% 50%}
+ .hero-in{flex:0 0 auto;padding:18px 0 26px}
+ .hero h1{font-size:clamp(31px,9.2vw,40px);color:var(--gr)}
+ .hero h1 span{color:var(--mut);font-size:max(17px,.48em);margin-top:12px}
+ .hero .lead{display:none}
+ .hero .btn{margin-top:24px;background:var(--gr);color:#fff;width:100%;justify-content:center}
+ .hero .fakt{color:var(--mut);margin-top:14px;font-size:14px}
+ .sek{padding:64px 0}
+ .dach{columns:1}
+ .us{display:flex}
+ .us figure{aspect-ratio:16/10;min-height:0}
+ .gl{flex-direction:column;align-items:flex-start}
+ .strz{display:none}
+ .tasma{grid-auto-columns:78%;padding:0 16px 12px;scroll-padding-inline:16px}
+ .syn{grid-template-columns:minmax(0,1fr);padding:28px 22px}
+ form{grid-template-columns:minmax(0,1fr);padding:22px}
+ .stopka .wrap{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+ .stopka .wrap>div:first-child{grid-column:1/-1}
+ .mob{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1fr;transform:translateY(110%);transition:transform .25s}
+ .mob.widac{transform:none}
+ .mob a{display:flex;align-items:center;justify-content:center;gap:8px;padding:15px 8px;font-weight:700;text-decoration:none;background:var(--gr);color:#fff}
+ .mob a+a{background:#fff;color:var(--gr);border-top:1px solid var(--li)}
+ .mob svg{width:16px;height:16px}
+ body{padding-bottom:0}
+}
+@media (max-height:820px) and (min-width:761px){.hero h1{font-size:clamp(38px,4vw,56px)}.hero-in{padding:40px 0 96px}.hero .lead{margin-top:16px}.hero .btn{margin-top:24px}}
+</style>
+</head>
+<body>
+<header class="top" id="top">
+ <div class="wrap">
+  <a class="logo" href="./" aria-label="Biuro Inżynierskie Jarosław Drymer - strona główna">
+   <svg viewBox="0 0 80 52" aria-hidden="true"><path d="M3 38 37 6l40 32h-9L37 14 12 38Z" fill="currentColor"/><path d="M55 8h8v19l-8-6.4Z" fill="currentColor"/><path d="M3 44h74l-2 5H5Z" fill="currentColor"/></svg>
+   <span>Biuro Inżynierskie<b>Jarosław Drymer</b></span>
+  </a>
+  <nav class="nav" aria-label="Menu">
+   <a href="#przeglady" aria-current="page">Przeglądy budynków</a>
+   <a href="#uslugi">Pomiary i&nbsp;kosztorysy</a>
+   <a href="#protokol" class="opt">Protokół</a>
+   <a href="#przyklady">Przykłady</a>
+   <a href="#kontakt">Kontakt</a>
+  </nav>
+  <a class="tel" href="tel:+48693024252"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg><span>693 024 252</span></a>
+  <button class="burger" aria-label="Otwórz menu" aria-expanded="false"><i></i><i></i><i></i></button>
+ </div>
+</header>
+
+<main>
+<section class="hero" id="przeglady">
+ <picture>
+  <source media="(max-width: 900px)" srcset="img/hero-tel-720.webp 720w, img/hero-tel-1080.webp 1080w, img/hero-tel-1260.webp 1260w" sizes="100vw">
+  <img src="img/hero-1600.webp" srcset="img/hero-960.webp 960w, img/hero-1600.webp 1600w, img/hero-2400.webp 2400w, img/hero-3600.webp 3600w" sizes="max(100vw, 290vh)" width="3600" height="1200" alt="Budynek mieszkalny z balkonami i dachem mansardowym w Łodzi" fetchpriority="high">
+ </picture>
+ <div class="hero-in">
+  <h1>Przeglądy techniczne budynków w&nbsp;Łodzi<span>Inżynier jest lekarzem budynków: zmierzy, zbada, sprawdzi i&nbsp;wypisze receptę.</span></h1>
+  <p class="lead">Kontrole roczne, pięcioletnie i&nbsp;półroczne dla wspólnot, zarządców i&nbsp;właścicieli budynków. Protokół z&nbsp;jasną listą prac i&nbsp;kolejnością napraw.</p>
+  <a class="btn" href="#kontakt">Zapytaj o&nbsp;przegląd <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+  <p class="fakt">Biuro działa od 2009 roku. Członek Łódzkiej Okręgowej Izby Inżynierów Budownictwa.</p>
+ </div>
+</section>
+
+<section class="sek">
+ <div class="wrap intro">
+  <div>
+   <h2>Budynek, jak auto, podlega przeglądom</h2>
+   <p>Zadbany budynek jest bezpieczny i&nbsp;zdrowy, a&nbsp;bieżące naprawy kosztują mniej niż remont po latach zaniedbań. <strong>Kontrole okresowe wykonujemy w&nbsp;pełnym zakresie</strong>, zgodnie z&nbsp;Prawem budowlanym, dla budynków mieszkalnych, użyteczności publicznej, przemysłowych, magazynowych i&nbsp;handlowych.</p>
+  </div>
+  <ul class="dach">
+   <li>Przeglądy budowlane półroczne</li>
+   <li>Przeglądy budowlane roczne</li>
+   <li>Przeglądy budowlane pięcioletnie</li>
+   <li>Przeglądy elektryczne</li>
+   <li>Przeglądy gazowe</li>
+   <li>Przeglądy kominiarskie</li>
+   <li>Przeglądy pożarowe</li>
+   <li>Instalacja odgromowa</li>
+   <li>Oświetlenie awaryjne i&nbsp;ewakuacyjne</li>
+   <li>Instrukcja bezpieczeństwa pożarowego</li>
+  </ul>
+ </div>
+</section>
+
+<section class="sek sz" id="uslugi">
+ <div class="wrap">
+  <h2>Co jeszcze robimy</h2>
+  <div class="uslugi">
+   <article class="us">
+    <figure><img src="img/rysa-640.webp" srcset="img/rysa-640.webp 640w, img/rysa-1000.webp 1000w" sizes="(max-width:960px) 92vw, 400px" width="640" height="480" loading="lazy" alt="Rysa na tynku elewacji nad oknem"></figure>
+    <div><h3>Pomiary i&nbsp;oceny techniczne</h3><p>Szukamy przyczyn usterek w&nbsp;mieszkaniach i&nbsp;budynkach.</p>
+     <ul><li>Badania kamerą termowizyjną</li><li>Pomiary ugięć stropów</li><li>Inwentaryzacje budowlane</li><li>Oceny techniczne mieszkań i&nbsp;budynków</li></ul></div>
+   </article>
+   <article class="us">
+    <figure><img src="img/plany-640.webp" srcset="img/plany-640.webp 640w, img/plany-1000.webp 1000w" sizes="(max-width:960px) 92vw, 400px" width="640" height="427" loading="lazy" alt="Rysunki techniczne, cyrkiel i ołówek na projekcie"></figure>
+    <div><h3>Remonty i&nbsp;modernizacje</h3><p>Określamy koszty robót i&nbsp;sprawdzamy ich wykonanie.</p>
+     <ul><li>Kosztorysy, przedmiary i&nbsp;obmiary</li><li>Audyty i&nbsp;certyfikaty energetyczne</li><li>Wnioski o&nbsp;dofinansowanie termomodernizacji</li><li>Ekspertyzy i&nbsp;orzeczenia techniczne</li></ul></div>
+   </article>
+   <article class="us">
+    <figure><img src="img/osiedle-640.webp" srcset="img/osiedle-640.webp 640w, img/osiedle-1000.webp 1000w" sizes="(max-width:960px) 92vw, 400px" width="640" height="480" loading="lazy" alt="Kilkupiętrowy budynek mieszkalny z balkonami"></figure>
+    <div><h3>Budowa i&nbsp;nadzór</h3><p>Pomagamy każdemu, kto prowadzi budowę lub remont.</p>
+     <ul><li>Kierownik budowy</li><li>Inspektor nadzoru inwestorskiego</li><li>Sprawdzenie kosztorysu wykonawcy</li><li>Odbiory robót budowlanych</li></ul></div>
+   </article>
+  </div>
+ </div>
+</section>
+
+<section class="sek prot" id="protokol">
+ <svg class="dach-tlo" viewBox="0 0 80 52" aria-hidden="true"><path d="M3 38 37 6l40 32h-9L37 14 12 38Z" fill="currentColor"/><path d="M55 8h8v19l-8-6.4Z" fill="currentColor"/></svg>
+ <div class="wrap">
+  <div>
+   <h2>Protokół, który da się przeczytać bez inżyniera</h2>
+   <p>Opracowania są krótkie, klarowne i&nbsp;przystępne także dla osób niezwiązanych z&nbsp;budownictwem. Zarząd wspólnoty od razu wie, co zrobić najpierw.</p>
+  </div>
+  <ul class="pkt">
+   <li><svg viewBox="0 0 30 22" aria-hidden="true"><path d="M1 21 15 3l14 18h-4L15 8 5 21Z" fill="currentColor"/></svg><div><b>Wyniki w&nbsp;przejrzystej tabeli</b><span>Z&nbsp;tabeli jasno wynika, jakie prace trzeba wykonać, żeby utrzymać budynek w&nbsp;należytym stanie.</span></div></li>
+   <li><svg viewBox="0 0 30 22" aria-hidden="true"><path d="M1 21 15 3l14 18h-4L15 8 5 21Z" fill="currentColor"/></svg><div><b>Kolejność według pilności</b><span>Zawsze podajemy, które naprawy są najważniejsze dla budynku, a&nbsp;które mogą poczekać.</span></div></li>
+   <li><svg viewBox="0 0 30 22" aria-hidden="true"><path d="M1 21 15 3l14 18h-4L15 8 5 21Z" fill="currentColor"/></svg><div><b>Zdjęcia newralgicznych miejsc</b><span>Na życzenie protokół ilustrujemy zdjęciami najważniejszych punktów budynku.</span></div></li>
+   <li><svg viewBox="0 0 30 22" aria-hidden="true"><path d="M1 21 15 3l14 18h-4L15 8 5 21Z" fill="currentColor"/></svg><div><b>Koszty i&nbsp;technologia napraw</b><span>W&nbsp;wersji rozszerzonej szacujemy koszty zaleconych robót i&nbsp;dobieramy najlepszą technologię.</span></div></li>
+   <li><svg viewBox="0 0 30 22" aria-hidden="true"><path d="M1 21 15 3l14 18h-4L15 8 5 21Z" fill="currentColor"/></svg><div><b>Uprawnienia w&nbsp;załączniku</b><span>Do każdego protokołu dołączamy uprawnienia osoby wykonującej przegląd i&nbsp;zaświadczenie z&nbsp;izby inżynierów.</span></div></li>
+  </ul>
+ </div>
+</section>
+
+<section class="sek" id="przyklady">
+ <div class="wrap gl">
+  <div><h2>Przykłady z&nbsp;życia</h2><p>Dobry zarządca wykonuje bieżące naprawy na czas. Koszty są wtedy umiarkowane i&nbsp;rozłożone w&nbsp;latach, a&nbsp;budynek służy dłużej.</p></div>
+  <div class="strz"><button type="button" data-k="-1" aria-label="Poprzednie zdjęcia"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 8H3M7 4 3 8l4 4"/></svg></button><button type="button" data-k="1" aria-label="Następne zdjęcia"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 8h11M9 4l4 4-4 4"/></svg></button></div>
+ </div>
+ <div class="tasma" tabindex="0" aria-label="Galeria zdjęć budynków">
+  <figure><div class="fot"><img src="img/kamienica-640.webp" srcset="img/kamienica-640.webp 640w, img/kamienica-1000.webp 1000w" sizes="(max-width:760px) 78vw, 360px" width="640" height="480" loading="lazy" alt="Podwórze kamienicy, zniszczona elewacja"></div><figcaption>Elewacja budynku jest jego historią</figcaption></figure>
+  <figure><div class="fot"><img src="img/dachowka-640.webp" srcset="img/dachowka-640.webp 640w, img/dachowka-1000.webp 1000w" sizes="(max-width:760px) 78vw, 360px" width="640" height="360" loading="lazy" alt="Dach z dachówki ceramicznej z kominami"></div><figcaption>Okresowe kontrole dachów</figcaption></figure>
+  <figure><div class="fot"><img src="img/balkon-640.webp" srcset="img/balkon-640.webp 640w, img/balkon-1000.webp 1000w" sizes="(max-width:760px) 78vw, 360px" width="640" height="480" loading="lazy" alt="Skorodowana płyta balkonu w kamienicy"></div><figcaption>Uświadamiamy zagrożenia</figcaption></figure>
+  <figure><div class="fot"><img src="img/zabytek-640.webp" srcset="img/zabytek-640.webp 640w, img/zabytek-1000.webp 1000w" sizes="(max-width:760px) 78vw, 360px" width="640" height="360" loading="lazy" alt="Zabytkowa willa wśród drzew"></div><figcaption>Przeglądy budynków zabytkowych</figcaption></figure>
+  <figure><div class="fot"><img src="img/rysa-640.webp" srcset="img/rysa-640.webp 640w, img/rysa-1000.webp 1000w" sizes="(max-width:760px) 78vw, 360px" width="640" height="480" loading="lazy" alt="Pęknięcie tynku pod oknem"></div><figcaption>Tworzymy projekty napraw</figcaption></figure>
+  <figure><div class="fot"><img src="img/dach-640.webp" srcset="img/dach-640.webp 640w, img/dach-1000.webp 1000w" sizes="(max-width:760px) 78vw, 360px" width="640" height="480" loading="lazy" alt="Płaski dach z kominami wentylacyjnymi"></div><figcaption>Dach płaski po kontroli</figcaption></figure>
+  <figure><div class="fot"><img src="img/willa-640.webp" srcset="img/willa-640.webp 640w, img/willa-1000.webp 1000w" sizes="(max-width:760px) 78vw, 360px" width="640" height="480" loading="lazy" alt="Odnowiona willa z dachem mansardowym"></div><figcaption>Budynek właściwie użytkowany</figcaption></figure>
+  <figure><div class="fot"><img src="img/apartamentowiec-640.webp" srcset="img/apartamentowiec-640.webp 640w, img/apartamentowiec-1000.webp 1000w" sizes="(max-width:760px) 78vw, 360px" width="640" height="360" loading="lazy" alt="Nowoczesny apartamentowiec z cegły i blachy"></div><figcaption>Apartamentowiec</figcaption></figure>
+ </div>
+</section>
+
+<section class="sek sz">
+ <div class="wrap">
+  <div class="syn">
+   <div><h2>Usterki z&nbsp;protokołu naprawi BARTON</h2><p>Drobne naprawy remontowe i&nbsp;konserwacyjne po przeglądzie: tynki, elewacje, opaski, kominy, klatki schodowe, a&nbsp;zimą sople i&nbsp;śnieg z&nbsp;dachów. Firma Bartłomieja Drymera, Łódź i&nbsp;okolice.</p></div>
+   <a class="btn obr" href="https://wylinka-podglad.pl/barton-koncepcja/">Zobacz BARTON <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M2 8h11M9 4l4 4-4 4"/></svg></a>
+  </div>
+ </div>
+</section>
+
+<section class="sek" id="kontakt">
+ <div class="wrap kont">
+  <div>
+   <h2>Zapytaj o&nbsp;przegląd</h2>
+   <p style="color:var(--mut);margin-top:18px;max-width:30em">Napisz, jaki to budynek i&nbsp;jakiego przeglądu potrzebujesz. Każdą ofertę kalkulujemy indywidualnie.</p>
+   <div class="dane">
+    <div><small>Telefon</small><a href="tel:+48693024252">693 024 252</a> &nbsp;·&nbsp; <a href="tel:+48693844091">693 844 091</a></div>
+    <div><small>E-mail</small><a href="mailto:biuro@drymer.pl">biuro@drymer.pl</a></div>
+    <div><small>Biuro</small>ul. Wólczańska 19, II piętro, lokal 3<br>90-731 Łódź</div>
+   </div>
+  </div>
+  <form class="sz" onsubmit="event.preventDefault();this.querySelector('.ok').hidden=false">
+   <label>Imię i&nbsp;nazwisko<input name="imie" autocomplete="name" required></label>
+   <label>Telefon<input name="tel" type="tel" autocomplete="tel" required></label>
+   <label class="pel">E-mail<input name="mail" type="email" autocomplete="email"></label>
+   <label class="pel">Rodzaj przeglądu<select name="rodzaj"><option>Przegląd roczny</option><option>Przegląd pięcioletni</option><option>Przegląd półroczny</option><option>Pomiary lub ocena techniczna</option><option>Kosztorys, nadzór, inne</option></select></label>
+   <label class="pel">Budynek i&nbsp;adres<textarea name="opis" placeholder="Np. budynek mieszkalny, 4 kondygnacje, ul. ..., Łódź"></textarea></label>
+   <label class="pel zgoda"><input type="checkbox" required> Zgadzam się na kontakt w&nbsp;sprawie zapytania.</label>
+   <button class="btn" type="submit">Wyślij zapytanie</button>
+   <p class="ok" hidden>To podgląd strony, formularz zacznie wysyłać wiadomości po uruchomieniu.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer class="stopka">
+ <div class="wrap">
+  <div><b>Biuro Inżynierskie Jarosław Drymer</b>Przeglądy techniczne budynków, pomiary, kosztorysy i&nbsp;nadzór. Łódź i&nbsp;województwo łódzkie.</div>
+  <div><b>Kontakt</b><a href="tel:+48693024252">693 024 252</a><br><a href="mailto:biuro@drymer.pl">biuro@drymer.pl</a></div>
+  <div><b>Biuro</b>ul. Wólczańska 19/3<br>90-731 Łódź</div>
+  <div class="dol"><span>© <span id="rok">2026</span> Biuro Inżynierskie Jarosław Drymer</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=przegladybudynkow.info&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+ </div>
+</footer>
+
+<div class="mob" id="mob"><a href="tel:+48693024252"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>Zadzwoń</a><a href="#kontakt">Zapytaj</a></div>
+
+<script defer src="app.js"></script>
+</body>
+</html>
